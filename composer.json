@@ -3,13 +3,15 @@
   "keywords": ["test", "openstack"],
   "homepage": "https://github.com/Appremake/testopenstack",
   "description": "OpenStack Test",
-  "license": "proprietary",
+  "type": "library",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Appremake",
       "email": "appremake@gmail.com"
     }
   ],
+  "minimum-stability":"dev",
   "require": {
     "php": "~7.0"
   },
@@ -18,6 +20,7 @@
   },
   "autoload" : {
     "psr-4" : {
+      
       "appremake\\testopenstack\\": ["src"]
     }
   }
