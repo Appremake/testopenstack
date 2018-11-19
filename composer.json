@@ -5,6 +5,8 @@
   "keywords": ["openstack","test"],
   "homepage": "https://github.com/Appremake/testopenstack",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Appremake",
