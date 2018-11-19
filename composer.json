@@ -1,5 +1,5 @@
 {
-  "name": "appremake/testopenstack",
+  "name": "appremake/test2",
   "type": "library",
   "description": "Test openstack",
   "keywords": ["openstack","test"],
@@ -8,8 +8,7 @@
   "authors": [
     {
       "name": "Appremake",
-      "email": "appremake@gmail.com",
-      "role": "Developer"
+      "email": "appremake@gmail.com"
     }
   ],
   "require": {
@@ -17,12 +16,7 @@
   },
   "autoload": {
     "psr-0": {
-      "testopenstack": "src"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "test2": "src"
     }
   }
 }
