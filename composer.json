@@ -20,7 +20,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "Appremake\\testopenstack\\": "src/"
+      "testopenstack\\": "src/"
     }
   }
 
