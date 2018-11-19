@@ -1,0 +1,29 @@
+{
+  "name": "appremake/testopenstack",
+  "keywords": ["test", "openstack"],
+  "homepage": "https://github.com/Appremake/testopenstack",
+  "description": "OpenStack Test",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Appremake",
+      "email": "appremake@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "appremake\\testopenstack\\": ["src"]
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "master": "1.0.x"
+    }
+  }
+}
