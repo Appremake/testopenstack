@@ -3,7 +3,7 @@
   "keywords": ["test", "openstack"],
   "homepage": "https://github.com/Appremake/testopenstack",
   "description": "OpenStack Test",
-  "license": "Apache-2.0",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Appremake",
@@ -20,10 +20,6 @@
     "psr-4" : {
       "appremake\\testopenstack\\": ["src"]
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "master": "1.0.x"
-    }
   }
+
 }
