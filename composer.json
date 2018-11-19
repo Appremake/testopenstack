@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "testopenstack\\": "src/"
+      "Appremake\\": "src/"
     }
   }
 }
