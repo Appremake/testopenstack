@@ -19,9 +19,8 @@
     "phpunit/phpunit": "^6.5"
   },
   "autoload" : {
-    "psr-4" :
-
-      "appremake\\testopenstack\\": ["src"]
+    "psr-4" : {
+    "Appremake\\": "src/"
     }
   }
 
